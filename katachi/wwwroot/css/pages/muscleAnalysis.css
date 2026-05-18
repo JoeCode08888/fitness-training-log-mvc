@@ -44,6 +44,20 @@ muscleAnalysis.css - 肌群分析（PAGE 3）
     padding: 24px 100px;
 }
 
+/* P3 區塊標題（訓練分布圖 / 訓練佔比 / 目標達成率 / 本月建議） */
+#page-p3 .sec-label,
+#page-p3 .sug-title {
+    font-size: 19px;
+}
+
+/* 正背面切換 + 月份選單 橫排容器 */
+.muscle-card-top {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
 /* 人體 SVG 正面 / 背面切換 */
 .body-tog {
     display: flex;
@@ -250,8 +264,8 @@ muscleAnalysis.css - 肌群分析（PAGE 3）
 
 /* 建議清單標題文字 */
 .sug-title {
-    font-size: 14px;
     font-weight: 700;
+    color: var(--text-dim);
 }
 
 /* 單筆建議項目列 */

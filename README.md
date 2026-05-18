@@ -1,7 +1,5 @@
 # KATACHI MVC - 健身訓練日誌
 
-![KATACHI](https://img.shields.io/badge/KATACHI-ASP.NET_Core_MVC-3d5247)
-
 ## 專案介紹
 
 KATACHI MVC 是健身訓練日誌的後端整合版本，以 ASP.NET Core MVC 架構連接 MS SQL Server 資料庫，提供完整的訓練紀錄讀寫、統計分析與肌群分布等功能。

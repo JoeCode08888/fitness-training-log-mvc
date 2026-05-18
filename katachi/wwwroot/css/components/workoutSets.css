@@ -25,6 +25,7 @@ workout-sets.css - 訓練組數 UI
 .set-num {
     font-family: var(--font-sans);
     font-size: 16px;
+    font-weight: 600;
     color: var(--text-muted);
     width: 36px;
 }
